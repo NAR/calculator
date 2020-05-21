@@ -4,8 +4,8 @@
 
 <section class="calculator">
 <form action="/compute">
-  <input type="number" id="a" name="a" value="50">
-  <input type="number" id="b" name="b" value="50">
+  <input type="number" id="a" name="a" value="2">
+  <input type="number" id="b" name="b" value="2">
   Operation:<br> 
   <label for="add">Add</label>
   <input type="radio" id="add" name="operation" value="add" checked>
