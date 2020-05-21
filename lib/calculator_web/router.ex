@@ -17,6 +17,8 @@ defmodule CalculatorWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
+    get "/calculator", CalculatorController, :index
+    get "/compute", ComputeController, :index
   end
 
   # Other scopes may use custom stacks.

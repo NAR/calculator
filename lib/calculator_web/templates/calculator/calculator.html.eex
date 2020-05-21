@@ -1,0 +1,17 @@
+<section>
+  <h1>Add or multiply two numbers</h1>
+</section>
+
+<section class="calculator">
+<form action="/compute">
+  <input type="number" id="a" name="a" value="50">
+  <input type="number" id="b" name="b" value="50">
+  Operation:<br> 
+  <label for="add">Add</label>
+  <input type="radio" id="add" name="operation" value="add" checked>
+  <label for="multiply">Multiply</label>
+  <input type="radio" id="multiply" name="operation" value="multiply">
+  <input type="submit" value="Compute">
+</form>
+</section>
+
