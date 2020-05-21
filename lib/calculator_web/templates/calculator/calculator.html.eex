@@ -10,7 +10,7 @@
   <label for="add">Add</label>
   <input type="radio" id="add" name="operation" value="add" checked>
   <label for="multiply">Multiply</label>
-  <input type="radio" id="multiply" name="operation" value="multiply">
+  <input type="radio" id="multiply" name="operation" value="add">
   <input type="submit" value="Compute">
 </form>
 </section>
