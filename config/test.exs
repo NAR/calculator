@@ -8,3 +8,5 @@ config :calculator, CalculatorWeb.Endpoint,
 
 # Print only warnings and errors during test
 config :logger, level: :warn
+
+config :wallaby, :base_url, "http://localhost:4000"
